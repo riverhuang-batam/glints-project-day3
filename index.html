@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Personal Form</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <p>Tell me more about yourself</p>
+        </ul>
+    </header>
+    <div class="content">
+
+        <form action="index.html" post="action">
+            <div class="container">
+                <h3>1. Personal Information</h3>
+
+
+                <div class="col-10">
+                    <label for="firstName"><span>*</span>First Name</label>
+                </div>
+                <div class="col-40">
+                    <input type="firstName" name="firstName" id="firstName" placeholder="FirstName" required>
+                </div>
+                <div class="col-10">
+                    <label for="lastName"><span>*</span>Last Name</label>
+                </div>
+                <div class="col-40">
+                    <input type="lastName" name="lastName" id="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="col-10">
+                    <label for="dateOfBirth"><span>*</span>Date of Birth</label>
+                </div>
+                <div class="col-40">
+                    <input type="date" name="dateOfBirth" id="dateOfBirth" required>
+                </div>
+                <div class="col-10">
+                    <label for="motto"><span>*</span>Motto</label>
+                </div>
+                <div class="col-40">
+                    <input type="text" name="motto" id="motto" placeholder="Your Motto" required></textarea>
+                </div>
+
+
+                <h3 class="col-100">2. Contact Information</h3>
+
+                <div>
+                    <div class="col-10">
+                        <label for="email"><span>*</span>Email Address</label>
+                    </div>
+                    <div class="col-40">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="col-10">
+                        <label for="password"><span>*</span>Password</label>
+                    </div>
+                    <div class="col-40">
+                        <input type="password" name="password" id="password" placeholder="password" required>
+                    </div>
+                    <div class="col-10">
+                        <label for="telephone"><span>*</span>Telephone</label>
+                    </div>
+                    <div class="col-40">
+                        <input type="number" name="telephone" id="telephone" placeholder="Telephone" required>
+                    </div>
+                    <div class="col-10">
+                        <label for="phone">Mobile Number <span>(optional)</span></label>
+                    </div>
+                    <div class="col-40">
+                        <input type="phone" name="phone" id="phone" placeholder="Mobile Number">
+                    </div>
+                </div>
+                <h3 class="col-100">3. Interest</h3>
+                <div>
+                <img src="img/hobby1.jpg" alt="hobby1">
+                <img src="img/hobby2.jpg" alt="hobby2">
+                <img src="img/hobby3.jpg" alt="hobby3">
+                <img src="img/hobby4.jpg" alt="hobby4">
+                <img src="img/hobby5.jpg" alt="hobby5">
+                <img src="img/hobby6.jpg" alt="hobby6">
+                <img src="img/hobby7.jpg" alt="hobby7">
+                <img src="img/hobby8.jpg" alt="hobby8">
+            </div>
+                <div>
+                    <div class="col-10">
+                        <label><span>*</span>Interest</label>
+                    </div>
+                    <div class="col-40">
+                        <div class="custom-select">
+                        <select id="interest" name="interest" form="nterest">
+                            <option value="coding">Coding</option>
+                            <option value="Design">Design</option>
+                            <option value="Basketball">Basketball</option>
+                            <option value="Swimming">Swimming</option>
+                        </select>
+                    </div>
+                    </div>
+                </div>
+                <div class="right bottomlayout">
+                    
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

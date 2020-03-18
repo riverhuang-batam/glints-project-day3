@@ -1,0 +1,116 @@
+input{
+    width: 80%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input:hover{
+    width: 85%;
+    
+    
+    box-sizing: border-box;
+}
+button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+textarea
+{
+    height: 200%;
+}
+span
+{
+    color:red;
+}
+ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width:100%;
+    display: block;
+}
+ul p
+{
+    color:white;
+    text-align: center;
+    font-size:25px;
+}
+
+.content
+{
+    padding-top: 80px;
+}
+label
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+
+}
+.col-10
+{
+    float: left;
+    width: 10%;
+    margin-top: 6px;
+}
+.col-40
+{
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+}
+.col-100
+{
+    float: left;
+    width:100%;
+    margin-top:10px
+}
+.right
+{
+    float: right;
+    padding-top:50px;
+    margin-top:10px;
+}
+.container
+{
+    width:90%;
+    margin: auto;   
+}
+img
+{
+    opacity:1;
+    transition: .5s ease;
+    text-align:center;
+    width:270px;
+    height:200px;
+}
+img:hover
+{
+    opacity: 0.7
+}
+.custom-select select
+{
+    width: 80%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.bottomlayout
+{
+    padding-bottom:50px;
+}
